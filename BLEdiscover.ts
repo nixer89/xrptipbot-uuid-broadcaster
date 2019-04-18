@@ -16,6 +16,7 @@ export function startDiscovery() {
         if(peripheral && peripheral.advertisement && peripheral.advertisement.localName === 'XRPTIP') {
             //THIS IS A TIPBOT ACCOUNT
             let uuidv4:string = peripheral.advertisement.serviceUuids[0];
+            console.log("FOUND: " + uuidv4);
             if(uuidv4) {
 
             }

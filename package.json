@@ -2,10 +2,10 @@
   "name": "xrptipbot-uuid-broadcaster",
   "version": "1.0.0",
   "description": "broadcasts and receives XRPTipBot infos through BLE with REST-API included",
-  "main": "app.ts",
+  "main": "index.ts",
   "scripts": {
-    "start": "node dist/app.js",
-    "develop": "tsc && concurrently \"tsc -w\" \"nodemon dist/app.js\"",
+    "start": "node dist/index.js",
+    "develop": "tsc && concurrently \"tsc -w\" \"nodemon dist/index.js\"",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
